@@ -1,0 +1,7 @@
+The CSS hierarchy for every web page looks like this:
+
+The browser’s default stylesheet
+User-defined stylesheets
+External stylesheets (that’s us)
+Page-specific styles (that’s also us)
+Inline styles (that could be us, but it never should be)
