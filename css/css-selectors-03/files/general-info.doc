@@ -1,14 +1,34 @@
-If we chose to name our class .italic, we wouldn’t be able to do much besides make it italic in our CSS without leading to a confusing situation. Using something semantic like .synopsis gives us more freedom for our CSS to customize how that synopsis is displayed.
+**Naming convenction for css classes
+If we chose to name our class .italic, we wouldn’t be able to do much besides make it italic in our CSS without leading to a confusing situation. Using something semantic like .synopsis gives us more freedom for our CSS to customize how that synopsis is displayed. **
 
-When there’s two conflicting properties in a CSS file, the last one is always the one that gets applied.
+**conflicting css properties
+When there’s two conflicting properties in a CSS file, the last one is always the one that gets applied. **
 
-<!-- These result in the same rendered page -->
+**<!-- These result in the same rendered page -->
 <div class='button call-to-action'>Button Two</div>
 <div class='call-to-action button'>Button Two</div>
 
-order of class attribute has no effect of override behaviour.
+order of class attribute has no effect of override behaviour.**
 
+**descendant selecotrs
+They let you target only those elements that are inside of another element. For example, we can pull out that <em> in the .synopsis paragraph with the following:
+
+.synopsis em {
+  font-style: normal;
+}**
+
+**pseudo-classes for links
+CSS “pseudo-classes” provide a mechanism for hooking into this kind of temporary user information. At any given time, an <a href> element can be in a number of different states, and you can use pseudo-classes to style each one of them individually. Think of them as class selectors that you don’t have to write on your own because they’re built into the browser. **
+
+**basic link styles
 :link – A link the user has never visited.
 :visited – A link the user has visited before.
 :hover – A link with the user’s mouse over it.
-:active – A link that’s being pressed down by a mouse (or finger).
+:active – A link that’s being pressed down by a mouse (or finger). **
+
+**pseudo-classes for structure include are and various others
+:last-of-type
+
+p:last-of-type {
+  margin-bottom: 50px;
+} **

@@ -1,0 +1,11 @@
+There are two types of links absolute and relative links
+absolute links = https://www.google.com/
+relative links = chrome.html 
+
+Reserved characters in html are => <,>,&,"",'',
+we can write above using 
+&lt; for < (less than)
+&gt; for > (greater than)
+&amp; for & (ampersand)
+&quot; for "
+&apos; for '
