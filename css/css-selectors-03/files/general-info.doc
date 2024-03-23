@@ -1,0 +1,14 @@
+If we chose to name our class .italic, we wouldn’t be able to do much besides make it italic in our CSS without leading to a confusing situation. Using something semantic like .synopsis gives us more freedom for our CSS to customize how that synopsis is displayed.
+
+When there’s two conflicting properties in a CSS file, the last one is always the one that gets applied.
+
+<!-- These result in the same rendered page -->
+<div class='button call-to-action'>Button Two</div>
+<div class='call-to-action button'>Button Two</div>
+
+order of class attribute has no effect of override behaviour.
+
+:link – A link the user has never visited.
+:visited – A link the user has visited before.
+:hover – A link with the user’s mouse over it.
+:active – A link that’s being pressed down by a mouse (or finger).
