@@ -1,0 +1,3 @@
+what are the three ways to algin horizontally block-level elements ?
+
+=> There are three methods for horizontally aligning block-level elements: “auto-margins” for center alignment, “floats” for left/right alignment, and “flexbox” for complete control over alignment. Yes, unfortunately block-level alignment is totally unrelated to the text-align property.

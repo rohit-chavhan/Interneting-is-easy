@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #EAEDF0;
+    border: 1px solid red;
+}
+
+.container {
+    overflow: hidden;
+    background-color: #EAEDF0;
+}
+
+.menu {
+    /* width: 650px; */ 
+    /* above i removed to look like image */
+    height: 100px;
+    background-color: #B2D6FF;
+}
+
+.sidebar {
+    width: 200px;
+    height: 300px;
+    float: left;
+    background-color: #F09A9D; 
+}
+
+.content {
+    width: 650px;
+    height: 500px;
+    background-color: #F5CF8E; 
+    float: left;
+    padding: 20px;
+}
+
+.footer {
+    height: 200px;
+    background-color: #D6E9FE;
+    clear: both;
+    /* overflow:hidden; */
+}
+
+.footer-item {
+    width: 30%;
+    height: 160px;
+    float: left;
+    margin: 20px 1.15%;
+    background-color: #B2D6FF;
+}
+
+.article-image {
+    width: 300px;
+    height: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+    border: 1px solid black;
+}
+
+.avatar {
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin: 25px;
+    border-radius: 40px;
+    background-color: #D6E9FE;
+}
+
+.username {
+    margin-top: 30px;
+}
+
+.comment {
+    margin: 10px;
+    overflow: hidden;
+}
