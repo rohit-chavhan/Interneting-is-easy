@@ -1,0 +1,9 @@
+ what is flexbox ?
+ ** Flexbox uses two types of boxes that we’ve never seen before: “flex containers” and “flex items”. The job of a flex container is to group a bunch of flex items together and define how they’re positioned. **
+
+what is flex property on flex items ?
+ **Flex is a shorthand for 3 property that we set on flex item, the properies affect how flex items size themselves within their container.
+
+ we use flex property on flex items to determine how will the individual items will grow and shrink with the change in the width of their parent container.
+
+ 
